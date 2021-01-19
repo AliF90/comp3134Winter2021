@@ -1,0 +1,26 @@
+Domain Name: toyota.com
+Top Level Domain: COM (Commercial TLD)
+IP Address: 107.154.75.95
+Geolocation: US (United States), CA, California, 94065 Redwood City
+
+Domain Name: mercedes-benz.com
+Top Level Domain: COM (Commercial TLD)
+IP Address: 18.185.250.44
+Geolocation: DE (Germany), 05, Hessen, 09079 Frankfurt
+
+Domain Name: bmw.com
+Top Level Domain: COM (Commercial TLD)
+IP Address: 160.46.226.165
+Geolocation: DE (Germany), 02, Bayern, 80796 Munich
+
+Domain Name: tesla.com
+Top Level Domain: COM (Commercial TLD)
+IP Address: 199.66.11.62
+Geolocation: US (United States), NY, New York, 10022 New York
+
+Domain Name: landrover.com
+Top Level Domain: COM (Commercial TLD)
+IP Address: 23.219.18.219
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge
+
+

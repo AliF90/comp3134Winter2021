@@ -1,0 +1,57 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap 8.8.8.8
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 05:31 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0014s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.66 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 53 8.8.8.8
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 05:34 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0018s latency).
+
+PORT   STATE SERVICE
+53/tcp open  domain
+
+Nmap done: 1 IP address (1 host up) scanned in 11.09 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1-20 8.8.8.8
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 05:35 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0016s latency).
+
+PORT   STATE    SERVICE
+1/tcp  filtered tcpmux
+2/tcp  filtered compressnet
+3/tcp  filtered compressnet
+4/tcp  filtered unknown
+5/tcp  filtered rje
+6/tcp  filtered unknown
+7/tcp  filtered echo
+8/tcp  filtered unknown
+9/tcp  filtered discard
+10/tcp filtered unknown
+11/tcp filtered systat
+12/tcp filtered unknown
+13/tcp filtered daytime
+14/tcp filtered unknown
+15/tcp filtered netstat
+16/tcp filtered unknown
+17/tcp filtered qotd
+18/tcp filtered msp
+19/tcp filtered chargen
+20/tcp filtered ftp-data
+
+Nmap done: 1 IP address (1 host up) scanned in 12.51 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F 8.8.8.8
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 05:35 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0015s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.81 seconds

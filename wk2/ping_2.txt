@@ -1,0 +1,7 @@
+C:\Users\farah>ping 138.197.139.105
+
+Pinging 138.197.139.105 with 32 bytes of data:
+Reply from 138.197.139.105: bytes=32 time=18ms TTL=55
+Reply from 138.197.139.105: bytes=32 time=13ms TTL=55
+Reply from 138.197.139.105: bytes=32 time=16ms TTL=55
+Reply from 138.197.139.105: bytes=32 time=13ms TTL=55
