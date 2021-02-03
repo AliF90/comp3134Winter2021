@@ -1,0 +1,130 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+00:37:12.737077 IP 138.197.139.105.ssh > cpef81d0fadd1d3-cmf81d0fadd1d0.cpe.net.fido.ca.64129: Flags [P.], seq 2821303810:2821303854, ack 1570934620, win 501, length 44
+00:37:12.737211 IP 138.197.139.105.ssh > cpef81d0fadd1d3-cmf81d0fadd1d0.cpe.net.fido.ca.64129: Flags [P.], seq 44:152, ack 1, win 501, length 108
+00:37:12.737298 IP 138.197.139.105.ssh > cpef81d0fadd1d3-cmf81d0fadd1d0.cpe.net.fido.ca.64129: Flags [P.], seq 152:188, ack 1, win 501, length 36
+00:37:12.750748 IP cpef81d0fadd1d3-cmf81d0fadd1d0.cpe.net.fido.ca.64129 > 138.197.139.105.ssh: Flags [.], ack 188, win 2731, length 0
+00:37:12.992906 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1315096997:1315098053, ack 3332884963, win 510, options [nop,nop,TS val 4284015429 ecr 1180725302], length 1056
+00:37:13.019472 IP 89.190.156.54.5432 > 138.197.139.105.sip: SIP: OPTIONS sip:100@138.197.139.105 SIP/2.0
+00:37:13.100796 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [P.], seq 441:489, ack 1056, win 245, options [nop,nop,TS val 1180726166 ecr 4284014677], length 48
+00:37:13.251522 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1056, win 245, options [nop,nop,TS val 1180726316 ecr 4284015429,nop,nop,sack 1 {0:1056}], length 0
+00:37:14.590846 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [P.], seq 1:489, ack 1056, win 245, options [nop,nop,TS val 1180727656 ecr 4284015429], length 488
+00:37:14.590930 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [.], ack 489, win 507, options [nop,nop,TS val 4284017027 ecr 1180727656], length 0
+00:37:14.601951 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1056:1336, ack 489, win 507, options [nop,nop,TS val 4284017038 ecr 1180727656], length 280
+00:37:14.860413 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1336, win 262, options [nop,nop,TS val 1180727925 ecr 4284017038], length 0
+00:37:14.867230 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [P.], seq 489:505, ack 1336, win 262, options [nop,nop,TS val 1180727932 ecr 4284017038], length 16
+00:37:14.867284 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [.], ack 505, win 507, options [nop,nop,TS val 4284017304 ecr 1180727932], length 0
+00:37:15.133959 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [P.], seq 505:557, ack 1336, win 262, options [nop,nop,TS val 1180728199 ecr 4284017304], length 52
+00:37:15.134022 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [.], ack 557, win 507, options [nop,nop,TS val 4284017571 ecr 1180728199], length 0
+00:37:15.134282 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1336:1388, ack 557, win 507, options [nop,nop,TS val 4284017571 ecr 1180728199], length 52
+00:37:15.402553 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [P.], seq 557:641, ack 1388, win 262, options [nop,nop,TS val 1180728467 ecr 4284017571], length 84
+00:37:15.444923 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [.], ack 641, win 507, options [nop,nop,TS val 4284017881 ecr 1180728467], length 0
+00:37:17.574376 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1388:1456, ack 641, win 507, options [nop,nop,TS val 4284020011 ecr 1180728467], length 68
+00:37:17.840947 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [F.], seq 693, ack 1456, win 262, options [nop,nop,TS val 1180730906 ecr 4284020011], length 0
+00:37:17.841016 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 60
+00:37:17.841039 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [P.], seq 641:693, ack 1456, win 262, options [nop,nop,TS val 1180730906 ecr 4284020011], length 52
+00:37:17.841064 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:18.208997 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1388:1456, ack 641, win 507, options [nop,nop,TS val 4284020645 ecr 1180728467], length 68
+00:37:18.384889 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [F.], seq 693, ack 1456, win 262, options [nop,nop,TS val 1180731450 ecr 4284020011], length 0
+00:37:18.384976 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 60
+00:37:18.475697 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1456, win 262, options [nop,nop,TS val 1180731540 ecr 4284020645,nop,nop,sack 1 {1388:1456}], length 0
+00:37:18.475786 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:18.848950 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1388:1456, ack 641, win 507, options [nop,nop,TS val 4284021285 ecr 1180728467], length 68
+00:37:19.107599 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1456, win 262, options [nop,nop,TS val 1180732172 ecr 4284021285,nop,nop,sack 1 {1388:1456}], length 0
+00:37:19.107671 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:20.128950 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1388:1456, ack 641, win 507, options [nop,nop,TS val 4284022565 ecr 1180728467], length 68
+00:37:20.172788 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [FP.], seq 641:693, ack 1456, win 262, options [nop,nop,TS val 1180733238 ecr 4284021285], length 52
+00:37:20.172856 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:20.394704 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1456, win 262, options [nop,nop,TS val 1180733459 ecr 4284022565,nop,nop,sack 1 {1388:1456}], length 0
+00:37:20.394795 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:21.366838 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [FP.], seq 641:693, ack 1456, win 262, options [nop,nop,TS val 1180734432 ecr 4284022565], length 52
+00:37:21.366905 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:22.453970 IP 194.147.140.24.44073 > 138.197.139.105.smsqp: Flags [S], seq 4021229147, win 1024, length 0
+00:37:22.880945 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1388:1456, ack 641, win 507, options [nop,nop,TS val 4284025317 ecr 1180728467], length 68
+00:37:23.147604 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1456, win 262, options [nop,nop,TS val 1180736212 ecr 4284025317,nop,nop,sack 1 {1388:1456}], length 0
+00:37:23.147674 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:23.750879 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [FP.], seq 641:693, ack 1456, win 262, options [nop,nop,TS val 1180736816 ecr 4284025317], length 52
+00:37:23.750963 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:26.975136 ARP, Request who-has 138.197.139.105 tell 138.197.128.1, length 46
+00:37:26.975164 ARP, Reply 138.197.139.105 is-at 62:87:b0:2a:ce:8b (oui Unknown), length 28
+00:37:28.000983 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1388:1456, ack 641, win 507, options [nop,nop,TS val 4284030437 ecr 1180728467], length 68
+00:37:28.267197 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1456, win 262, options [nop,nop,TS val 1180741332 ecr 4284030437,nop,nop,sack 1 {1388:1456}], length 0
+00:37:28.267278 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:28.518869 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [FP.], seq 641:693, ack 1456, win 262, options [nop,nop,TS val 1180741584 ecr 4284030437], length 52
+00:37:28.518953 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:32.224925 IP 194.147.140.49.46853 > 138.197.139.105.3367: Flags [S], seq 2733717790, win 1024, length 0
+00:37:34.721440 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [S], seq 2347376777, win 29200, options [mss 1424,sackOK,TS val 3425066038 ecr 0,nop,wscale 7], length 0
+00:37:34.721533 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [S.], seq 3139138786, ack 2347376778, win 65160, options [mss 1460,sackOK,TS val 165016659 ecr 3425066038,nop,wscale 7], length 0
+00:37:34.950478 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 3425066268 ecr 165016659], length 0
+00:37:34.974056 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 165016912 ecr 3425066268], length 41
+00:37:35.208918 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 3425066526 ecr 165016912], length 0
+00:37:35.213132 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [P.], seq 1:22, ack 42, win 229, options [nop,nop,TS val 3425066531 ecr 165016912], length 21
+00:37:35.213183 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [.], ack 22, win 510, options [nop,nop,TS val 165017151 ecr 3425066531], length 0
+00:37:35.216290 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [P.], seq 42:1098, ack 22, win 510, options [nop,nop,TS val 165017154 ecr 3425066531], length 1056
+00:37:35.450052 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [P.], seq 22:462, ack 1098, win 245, options [nop,nop,TS val 3425066767 ecr 165017154], length 440
+00:37:35.450138 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [.], ack 462, win 507, options [nop,nop,TS val 165017388 ecr 3425066767], length 0
+00:37:35.676715 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [P.], seq 462:510, ack 1098, win 245, options [nop,nop,TS val 3425066994 ecr 165017388], length 48
+00:37:35.676770 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [.], ack 510, win 507, options [nop,nop,TS val 165017614 ecr 3425066994], length 0
+00:37:35.687893 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [P.], seq 1098:1378, ack 510, win 507, options [nop,nop,TS val 165017625 ecr 3425066994], length 280
+00:37:35.930469 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [P.], seq 510:526, ack 1378, win 262, options [nop,nop,TS val 3425067248 ecr 165017625], length 16
+00:37:35.930554 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [.], ack 526, win 507, options [nop,nop,TS val 165017868 ecr 3425067248], length 0
+00:37:36.163981 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [P.], seq 526:578, ack 1378, win 262, options [nop,nop,TS val 3425067481 ecr 165017868], length 52
+00:37:36.164038 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [.], ack 578, win 507, options [nop,nop,TS val 165018102 ecr 3425067481], length 0
+00:37:36.164245 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [P.], seq 1378:1430, ack 578, win 507, options [nop,nop,TS val 165018102 ecr 3425067481], length 52
+00:37:36.392162 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [P.], seq 578:662, ack 1430, win 262, options [nop,nop,TS val 3425067710 ecr 165018102], length 84
+00:37:36.432995 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [.], ack 662, win 507, options [nop,nop,TS val 165018370 ecr 3425067710], length 0
+00:37:38.070831 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [FP.], seq 641:693, ack 1456, win 262, options [nop,nop,TS val 1180751136 ecr 4284030437], length 52
+00:37:38.070904 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:38.240986 IP 138.197.139.105.ssh > 139.155.179.136.52618: Flags [P.], seq 1388:1456, ack 641, win 507, options [nop,nop,TS val 4284040677 ecr 1180728467], length 68
+00:37:38.508342 IP 139.155.179.136.52618 > 138.197.139.105.ssh: Flags [.], ack 1456, win 262, options [nop,nop,TS val 1180751573 ecr 4284040677,nop,nop,sack 1 {1388:1456}], length 0
+00:37:38.508414 IP 138.197.139.105 > 139.155.179.136: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:39.797328 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 165021735 ecr 3425067710], length 68
+00:37:40.039319 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [P.], seq 662:714, ack 1498, win 262, options [nop,nop,TS val 3425071357 ecr 165021735], length 52
+00:37:40.039387 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [.], ack 714, win 507, options [nop,nop,TS val 165021977 ecr 3425071357], length 0
+00:37:40.039439 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [F.], seq 714, ack 1498, win 262, options [nop,nop,TS val 3425071357 ecr 165021735], length 0
+00:37:40.043163 IP 138.197.139.105.ssh > 119.29.36.75.49352: Flags [F.], seq 1498, ack 715, win 507, options [nop,nop,TS val 165021981 ecr 3425071357], length 0
+00:37:40.269920 IP 119.29.36.75.49352 > 138.197.139.105.ssh: Flags [.], ack 1499, win 262, options [nop,nop,TS val 3425071587 ecr 165021981], length 0
+00:37:48.563650 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [S], seq 406322407, win 64240, options [mss 1460,sackOK,TS val 1662329149 ecr 0,nop,wscale 7], length 0
+00:37:48.563776 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [S.], seq 121691993, ack 406322408, win 65160, options [mss 1460,sackOK,TS val 184450231 ecr 1662329149,nop,wscale 7], length 0
+00:37:48.575362 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 1662329161 ecr 184450231], length 0
+00:37:48.597813 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 184450265 ecr 1662329161], length 41
+00:37:48.608686 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 1662329195 ecr 184450265], length 0
+00:37:48.608733 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [P.], seq 1:22, ack 42, win 502, options [nop,nop,TS val 1662329195 ecr 184450265], length 21
+00:37:48.608753 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [.], ack 22, win 510, options [nop,nop,TS val 184450276 ecr 1662329195], length 0
+00:37:48.611189 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 42:1098, ack 22, win 510, options [nop,nop,TS val 184450279 ecr 1662329195], length 1056
+00:37:48.621981 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 1098, win 501, options [nop,nop,TS val 1662329208 ecr 184450279], length 0
+00:37:48.622026 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [P.], seq 22:462, ack 1098, win 501, options [nop,nop,TS val 1662329208 ecr 184450279], length 440
+00:37:48.622048 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [.], ack 462, win 507, options [nop,nop,TS val 184450290 ecr 1662329208], length 0
+00:37:48.632817 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [P.], seq 462:510, ack 1098, win 501, options [nop,nop,TS val 1662329219 ecr 184450290], length 48
+00:37:48.632873 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [.], ack 510, win 507, options [nop,nop,TS val 184450300 ecr 1662329219], length 0
+00:37:48.643329 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1098:1378, ack 510, win 507, options [nop,nop,TS val 184450311 ecr 1662329219], length 280
+00:37:48.654074 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 1378, win 501, options [nop,nop,TS val 1662329240 ecr 184450311], length 0
+00:37:48.656132 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [P.], seq 510:526, ack 1378, win 501, options [nop,nop,TS val 1662329242 ecr 184450311], length 16
+00:37:48.656176 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [.], ack 526, win 507, options [nop,nop,TS val 184450324 ecr 1662329242], length 0
+00:37:48.666868 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [P.], seq 526:578, ack 1378, win 501, options [nop,nop,TS val 1662329253 ecr 184450324], length 52
+00:37:48.666925 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [.], ack 578, win 507, options [nop,nop,TS val 184450334 ecr 1662329253], length 0
+00:37:48.667114 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1378:1430, ack 578, win 507, options [nop,nop,TS val 184450335 ecr 1662329253], length 52
+00:37:48.677827 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [P.], seq 578:662, ack 1430, win 501, options [nop,nop,TS val 1662329264 ecr 184450335], length 84
+00:37:48.720967 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [.], ack 662, win 507, options [nop,nop,TS val 184450388 ecr 1662329264], length 0
+00:37:51.799913 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 184453467 ecr 1662329264], length 68
+00:37:51.811799 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [P.], seq 662:714, ack 1498, win 501, options [nop,nop,TS val 1662332398 ecr 184453467], length 52
+00:37:51.811914 IP 138.197.139.105 > 134.209.113.59: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:51.811943 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [F.], seq 714, ack 1498, win 501, options [nop,nop,TS val 1662332398 ecr 184453467], length 0
+00:37:51.811962 IP 138.197.139.105 > 134.209.113.59: ICMP 138.197.139.105 tcp port ssh unreachable, length 60
+00:37:51.856913 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [F.], seq 714, ack 1498, win 501, options [nop,nop,TS val 1662332443 ecr 184453467], length 0
+00:37:51.856985 IP 138.197.139.105 > 134.209.113.59: ICMP 138.197.139.105 tcp port ssh unreachable, length 60
+00:37:52.012980 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 184453680 ecr 1662329264], length 68
+00:37:52.023765 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 1498, win 501, options [nop,nop,TS val 1662332610 ecr 184453680,nop,nop,sack 1 {1430:1498}], length 0
+00:37:52.023843 IP 138.197.139.105 > 134.209.113.59: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:52.080831 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [FP.], seq 662:714, ack 1498, win 501, options [nop,nop,TS val 1662332667 ecr 184453680], length 52
+00:37:52.080929 IP 138.197.139.105 > 134.209.113.59: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:52.228960 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 184453896 ecr 1662329264], length 68
+00:37:52.239785 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 1498, win 501, options [nop,nop,TS val 1662332826 ecr 184453896,nop,nop,sack 1 {1430:1498}], length 0
+00:37:52.239854 IP 138.197.139.105 > 134.209.113.59: ICMP 138.197.139.105 tcp port ssh unreachable, length 72
+00:37:52.524850 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [FP.], seq 662:714, ack 1498, win 501, options [nop,nop,TS val 1662333111 ecr 184453896], length 52
+00:37:52.672945 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 184454340 ecr 1662329264], length 68
+00:37:52.683752 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 1498, win 501, options [nop,nop,TS val 1662333270 ecr 184454340,nop,nop,sack 1 {1430:1498}], length 0
+00:37:53.420818 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [FP.], seq 662:714, ack 1498, win 501, options [nop,nop,TS val 1662334007 ecr 184454340], length 52
+00:37:53.420892 IP 138.197.139.105 > 134.209.113.59: ICMP 138.197.139.105 tcp port ssh unreachable, length 112
+00:37:53.536958 IP 138.197.139.105.ssh > 134.209.113.59.34802: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 184455204 ecr 1662329264], length 68
+00:37:53.547834 IP 134.209.113.59.34802 > 138.197.139.105.ssh: Flags [.], ack 1498, win 501, options [nop,nop,TS val 1662334134 ecr 184455204,nop,nop,sack 1 {1430:1498}], length 0
