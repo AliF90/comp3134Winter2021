@@ -1,0 +1,64 @@
+www.google.com
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Important Dates
+Expires On2028-09-13
+Registered On1997-09-15
+Updated On2019-09-09
+
+
+yorku.ca
+Registrar Info
+NameWebnames.ca Inc.
+Whois Serverwhois.ca.fury.ca
+Referral URLwww.webnames.ca
+StatusclientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Important Dates
+Expires On2026-02-14
+Registered On2000-10-06
+Updated On2020-10-23
+
+
+utoronto.ca
+Registrar Info
+NameRebel.ca Corp.
+Whois Serverwhois.ca.fury.ca
+Referral URLwww.rebel.ca
+StatusclientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On2021-03-02
+Registered On2000-09-28
+Updated On2020-04-16
+
+
+mcmaster.ca
+Registrar Info
+NameCanHost Inc.
+Whois Serverwhois.ca.fury.ca
+Referral URLwww.canhost.ca
+StatusclientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Important Dates
+Expires On2023-04-13
+Registered On2000-10-20
+Updated On2018-02-02
+
+
+uwaterloo.ca
+Registrar Info
+NameWebnames.ca Inc.
+Whois Serverwhois.ca.fury.ca
+Referral URLwww.webnames.ca
+StatusclientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Important Dates
+Expires On2030-01-29
+Registered On2000-09-20
+Updated On2020-11-03
+
