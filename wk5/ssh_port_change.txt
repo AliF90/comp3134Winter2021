@@ -1,0 +1,3 @@
+sudo ufw allow 2222
+sudo service sshd restart
+ssh root@138.197.139.105 -p 2222
