@@ -1,0 +1,22 @@
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => backups
+    [3] => cache
+    [4] => crash
+    [5] => lib
+    [6] => local
+    [7] => lock
+    [8] => log
+    [9] => mail
+    [10] => opt
+    [11] => run
+    [12] => snap
+    [13] => spool
+    [14] => tmp
+    [15] => www
+)
+
+These are the folders I have in the parent folder of web root in the server
+It shows all the information on the server and configuration files

@@ -1,0 +1,2 @@
+It shows all the files in the folder and also you can go to parent folders
+I could leak sensitive information since it might show sensitive files and information. Alos they can configure the whole server

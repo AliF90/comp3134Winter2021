@@ -1,0 +1,8 @@
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+It shows the path to the html folder which contains the configuration files of the server
